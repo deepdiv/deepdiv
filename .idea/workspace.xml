@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51444417-8b94-40f2-8806-3ed67e7cc39c" name="Default Changelist" comment="&quot;init&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deepdiv.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVNH_DatasetUtil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cov_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_gener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dau_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepdiv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp1_dsc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp2_dsc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp2_kmnc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exp_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_resNet20/cifar_resNet20_2000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_resNet20/cifar_resNet20_6000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_vgg16/cifar_vgg16_2000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_vgg16/cifar_vgg16_6000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_LeNet1/fashion_LeNet1_2000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_LeNet1/fashion_LeNet1_6000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_resNet20/fashion_resNet20_2000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_resNet20/fashion_resNet20_6000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet1/mnist_LeNet1_2000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet1/mnist_LeNet1_6000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet5/mnist_LeNet5_2000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet5/mnist_LeNet5_6000_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_LeNet5/svhn_LeNet5_15619_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_LeNet5/svhn_LeNet5_5206_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_vgg16/svhn_vgg16_15619_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_vgg16/svhn_vgg16_5206_all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/cifar_resNet20/cifar_resNet20_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/cifar_vgg16/cifar_vgg16_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/fashion_LeNet1/fashion_LeNet1_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/fashion_resNet20/fashion_resNet20_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/mnist_LeNet1/mnist_LeNet1_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/mnist_LeNet5/mnist_LeNet5_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/svhn_LeNet5/svhn_LeNet5_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/figure/exp2/svhn_vgg16/svhn_vgg16_imp_val.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_data/dau_cifar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_data/dau_fashion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_data/dau_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_data/dau_svhn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_data/sheel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/gen_model_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_cifar10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_cifar_vgg16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_fashion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_fashion_resNet20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_mnist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_svhn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_model/model_svhn_vgg16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/figure_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/res_collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model_conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural_cov.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RQ1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RQ2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/example.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table/table_RQ1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table/table_RQ2.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table/table_RQ3.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/table/table_RQ4.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="deepdiv" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_gener.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4370">
+              <caret line="239" column="15" selection-start-line="239" selection-start-column="15" selection-end-line="239" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deepdiv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4788">
+              <caret line="263" column="35" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12825">
+              <caret line="683" column="43" selection-start-line="683" selection-start-column="43" selection-end-line="683" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neural_cov.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="252" column="31" selection-start-line="252" selection-start-column="31" selection-end-line="252" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gen_table/res_collection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="329" column="48" lean-forward="true" selection-start-line="329" selection-start-column="48" selection-end-line="329" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TODO</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\workspace\PycharmProjects\deepdiv上传版\deepdiv\gen_table</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gen_table/table_RQ3.py" />
+        <option value="$PROJECT_DIR$/gen_table/table_RQ4.py" />
+        <option value="$PROJECT_DIR$/gen_table/table_RQ2.py" />
+        <option value="$PROJECT_DIR$/gen_table/table_RQ1.py" />
+        <option value="$PROJECT_DIR$/data_gener.py" />
+        <option value="$PROJECT_DIR$/deepdiv.py" />
+        <option value="$PROJECT_DIR$/metrics.py" />
+        <option value="$PROJECT_DIR$/neural_cov.py" />
+        <option value="$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py" />
+        <option value="$PROJECT_DIR$/gen_table/res_collection.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="290" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="deepdiv2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepdiv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="deepdiv2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51444417-8b94-40f2-8806-3ed67e7cc39c" name="Default Changelist" comment="" />
+      <created>1611999585524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611999585524</updated>
+      <workItem from="1611999586817" duration="2116000" />
+      <workItem from="1612002503757" duration="52000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;init&quot;">
+      <created>1612000274493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612000274493</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;&quot;init&quot;&quot;&#10;&#10;This reverts commit 96a21acf">
+      <created>1612000405933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612000405933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2168000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5021097" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.6643059" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;&quot;init&quot;&quot;&#10;&#10;This reverts commit 96a21acf" />
+    <MESSAGE value="&quot;init&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;init&quot;" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/example.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RQ1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RQ2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SVNH_DatasetUtil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp2_kmnc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_table/table_RQ4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_table/table_RQ3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_table/table_RQ2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_table/table_RQ1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_table/table.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_gener.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4370">
+          <caret line="239" column="15" selection-start-line="239" selection-start-column="15" selection-end-line="239" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deepdiv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4788">
+          <caret line="263" column="35" selection-start-line="263" selection-start-column="35" selection-end-line="263" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12825">
+          <caret line="683" column="43" selection-start-line="683" selection-start-column="43" selection-end-line="683" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural_cov.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="252" column="31" selection-start-line="252" selection-start-column="31" selection-end-line="252" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_table/res_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="329" column="48" lean-forward="true" selection-start-line="329" selection-start-column="48" selection-end-line="329" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
