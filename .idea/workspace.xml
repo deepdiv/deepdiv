@@ -1,86 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51444417-8b94-40f2-8806-3ed67e7cc39c" name="Default Changelist" comment="&quot;init&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deepdiv.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVNH_DatasetUtil.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cov_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_gener.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dau_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deepdiv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exp1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exp1_dsc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exp2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exp2_dsc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exp2_kmnc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exp4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exp_runner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_resNet20/cifar_resNet20_2000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_resNet20/cifar_resNet20_6000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_vgg16/cifar_vgg16_2000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/cifar_vgg16/cifar_vgg16_6000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_LeNet1/fashion_LeNet1_2000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_LeNet1/fashion_LeNet1_6000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_resNet20/fashion_resNet20_2000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/fashion_resNet20/fashion_resNet20_6000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet1/mnist_LeNet1_2000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet1/mnist_LeNet1_6000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet5/mnist_LeNet5_2000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/mnist_LeNet5/mnist_LeNet5_6000_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_LeNet5/svhn_LeNet5_15619_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_LeNet5/svhn_LeNet5_5206_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_vgg16/svhn_vgg16_15619_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp1/svhn_vgg16/svhn_vgg16_5206_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/cifar_resNet20/cifar_resNet20_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/cifar_vgg16/cifar_vgg16_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/fashion_LeNet1/fashion_LeNet1_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/fashion_resNet20/fashion_resNet20_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/mnist_LeNet1/mnist_LeNet1_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/mnist_LeNet5/mnist_LeNet5_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/svhn_LeNet5/svhn_LeNet5_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/figure/exp2/svhn_vgg16/svhn_vgg16_imp_val.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_data/dau_cifar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_data/dau_fashion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_data/dau_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_data/dau_svhn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_data/sheel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/gen_model_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_cifar10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_cifar_vgg16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_fashion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_fashion_resNet20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_svhn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_model/model_svhn_vgg16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/figure_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/res_collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_table/table_RQ4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model_conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_cov.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RQ1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RQ2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/example.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table/table_RQ1.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table/table_RQ2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table/table_RQ3.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table/table_RQ4.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    <list default="true" id="51444417-8b94-40f2-8806-3ed67e7cc39c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neural_cov.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
+            <state relative-caret-position="209">
               <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
@@ -132,20 +55,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="4560">
               <caret line="252" column="31" selection-start-line="252" selection-start-column="31" selection-end-line="252" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gen_table/res_collection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="329" column="48" lean-forward="true" selection-start-line="329" selection-start-column="48" selection-end-line="329" selection-end-column="48" />
+            <state relative-caret-position="6270">
+              <caret line="330" column="28" lean-forward="true" selection-start-line="330" selection-start-column="28" selection-end-line="330" selection-end-column="28" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="109" column="6" lean-forward="true" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -176,6 +108,7 @@
         <option value="$PROJECT_DIR$/neural_cov.py" />
         <option value="$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py" />
         <option value="$PROJECT_DIR$/gen_table/res_collection.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -190,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,7 +135,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +299,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611999585524</updated>
       <workItem from="1611999586817" duration="2116000" />
-      <workItem from="1612002503757" duration="52000" />
+      <workItem from="1612002503757" duration="1533000" />
+      <workItem from="1612018042548" duration="159000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;init&quot;">
       <created>1612000274493</created>
@@ -382,13 +316,27 @@
       <option name="project" value="LOCAL" />
       <updated>1612000405933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;init&quot;">
+      <created>1612002562321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612002562321</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;init&quot;">
+      <created>1612002697605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612002697605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2168000" />
+    <option name="totallyTimeSpent" value="3808000" />
   </component>
-  <component name="TodoView" selected-index="4">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -401,7 +349,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2533512" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" sideWeight="0.5021097" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021097" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -410,7 +358,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.17280453" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" />
@@ -601,25 +549,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/neural_cov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="209">
           <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gen_model/model_cifar10_resNet20.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="4560">
           <caret line="252" column="31" selection-start-line="252" selection-start-column="31" selection-end-line="252" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gen_table/res_collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="329" column="48" lean-forward="true" selection-start-line="329" selection-start-column="48" selection-end-line="329" selection-end-column="48" />
+        <state relative-caret-position="6270">
+          <caret line="330" column="28" lean-forward="true" selection-start-line="330" selection-start-column="28" selection-end-line="330" selection-end-column="28" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="109" column="6" lean-forward="true" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
         </state>
       </provider>
     </entry>
