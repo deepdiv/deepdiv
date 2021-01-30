@@ -78,19 +78,6 @@ python -m gen_table.table_RQ3
 python -m gen_table.table_RQ4
 ```
 
-get table
-python ./exp_apfd/statistic_apfd_table.py
-
-run retrain exp
-experiment
-python ./exp_retrain/exp_retrain.py
-
-plot figure
-python ./exp_retrain/plot_retrain_figure.py
-
-get table
-python ./exp_retrain/statistic_retrain_table.py
-```
 ### download model and dau
 If you want to get the model and data that we used in our experiment ,you can run the code or
 download in this link:
